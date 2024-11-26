@@ -6,7 +6,7 @@ dbname = 'postgres'  # Connect to the default database to create a new one
 user = 'postgres'
 password = 'example'
 host = 'localhost'
-port = '5432'
+port = '5430'
 
 # New database details
 new_dbname = 'rag-1234'
