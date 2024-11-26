@@ -8,6 +8,7 @@ async def start(update: Update, context: CallbackContext):
 # Define a function that replies to user messages
 async def handle_message(update: Update, context: CallbackContext):
     user_message = update.message.text
+    print(update)
     response = f"You said: {user_message}"
     await update.message.reply_text(response)
 
